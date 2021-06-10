@@ -1,0 +1,59 @@
+INSERTS:
+
+INSERT INTO Pokemones VALUES ('Charmander', 'Fuego', 1);
+INSERT INTO Pokemones VALUES ('Charmeleon', 'Fuego', NULL);
+INSERT INTO Pokemones VALUES ('Charizard', 'Fuego', NULL);
+INSERT INTO Pokemones VALUES ('Bulbasaur', 'Planta', 1);
+INSERT INTO Pokemones VALUES ('Ivysaur', 'Planta', NULL);
+INSERT INTO Pokemones VALUES ('Venusaur', 'Planta', NULL);
+INSERT INTO Pokemones VALUES ('Squirtle', 'Agua', 1);
+INSERT INTO Pokemones VALUES ('Wartortle', 'Agua', NULL);
+INSERT INTO Pokemones VALUES ('Blastoise', 'Agua', NULL);
+INSERT INTO Pokemones VALUES ('Eeevee', 'Normal', 3);
+INSERT INTO Pokemones VALUES ('Vaporeon', 'Agua', NULL);
+INSERT INTO Pokemones VALUES ('Jolteon', 'Rayo', NULL);
+INSERT INTO Pokemones VALUES ('Flareon', 'Fuego', NULL);
+
+INSERT INTO Evoluciones VALUES (1,2,16);
+INSERT INTO Evoluciones VALUES (2,3,32);
+INSERT INTO Evoluciones VALUES (4,5,16);
+INSERT INTO Evoluciones VALUES (5,6,32);
+INSERT INTO Evoluciones VALUES (10,11,16);
+INSERT INTO Evoluciones VALUES (10,12,16);
+INSERT INTO Evoluciones VALUES (10,13,16);
+
+
+INSERT INTO Tipos VALUES ('Fuego');
+INSERT INTO Tipos VALUES ('Agua');
+INSERT INTO Tipos VALUES ('Rayo');
+INSERT INTO Tipos VALUES ('Hierba');
+
+
+INSERT INTO TiposPokemon VALUES (1,1);
+INSERT INTO TiposPokemon VALUES (2,1);
+INSERT INTO TiposPokemon VALUES (3,1);
+INSERT INTO TiposPokemon VALUES (4,4);
+INSERT INTO TiposPokemon VALUES (5,4);
+INSERT INTO TiposPokemon VALUES (6,4);
+INSERT INTO TiposPokemon VALUES (7,2);
+INSERT INTO TiposPokemon VALUES (8,2);
+INSERT INTO TiposPokemon VALUES (9,2);
+INSERT INTO TiposPokemon VALUES (12,3);
+INSERT INTO TiposPokemon VALUES (11,2);
+INSERT INTO TiposPokemon VALUES (12,1);
+
+
+INSERT INTO Habilidades VALUES ('Placaje',1,1,0);
+INSERT INTO Habilidades VALUES ('Pistola Agua',1,4,0);
+INSERT INTO Habilidades VALUES ('Llama',0,2,10);
+INSERT INTO Habilidades VALUES ('Araniazo',3,1,0);
+INSERT INTO Habilidades VALUES ('Coletazo',2,3,0);
+INSERT INTO Habilidades VALUES ('Roer',0,1,5);
+
+INSERT INTO HabilidadesPokemon VALUES (1,1);
+INSERT INTO HabilidadesPokemon VALUES (1,3);
+INSERT INTO HabilidadesPokemon VALUES (2,3);
+INSERT INTO HabilidadesPokemon VALUES (7,2);
+INSERT INTO HabilidadesPokemon VALUES (7,4);
+INSERT INTO HabilidadesPokemon VALUES (3,6);
+INSERT INTO HabilidadesPokemon VALUES (3,5);

@@ -1,2 +1,2 @@
 # Pokedex
- Proyecto Pokedex para Certant.
+ Proyecto Pokedex.
